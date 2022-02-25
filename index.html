@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <script src="angular/angular.min.js"></script>
+        <script src="angular/angular-route.min.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/routes.js"></script>
+        <script src="app/controllers/main.js"></script>
+        <title></title>
+    </head>
+    <body data-ng-controller="main-ctrl">
+        <header class="fixed-top w-100">
+            <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/logo.png" alt="page logo"/>
+                </a>
+            </nav>
+        </header>
+        <div data-ng-view></div>
+        <footer class="container-fluid bg-dark d-flex align-items-center py-3">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 text-center">
+                    <p class="text-white small mb-0">
+                        Copyright &copy;2022 Tomasz Pankowski. 
+                        <a href="#!/privacy" class="text-decoration-none text-white">
+                            Privacy&nbsp;policy
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <noscript>
+            This website requires javascript enabled in your browser
+        </noscript>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
